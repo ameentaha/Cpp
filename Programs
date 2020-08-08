@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    char p;
+    int q;
+    float r;
+    double s;
+    
+    cout<<"Size of char: "<<sizeof(p)<<"bytes";
+    cout<<"\nSize of int: "<<sizeof(q)<<"bytes";
+    cout<<"\nSize of float: "<<sizeof(r)<<"bytes";
+    cout<<"\nSize of double: "<<sizeof(s)<<"bytes";
+
+    return 0;
+}
