@@ -1,3 +1,5 @@
+//Write a C++ program to find the size of int, char, float, double.
+
 #include <iostream>
 using namespace std;
 int main()
@@ -12,5 +14,21 @@ int main()
     cout<<"\nSize of float: "<<sizeof(r)<<"bytes";
     cout<<"\nSize of double: "<<sizeof(s)<<"bytes";
 
+    return 0;
+}
+
+//Write a C++ program to find the product of two numbers entered by the user.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int p,q,r;
+    cout<<"Enter two numbers: ";
+    cin>>p>>q;
+    
+    r = p*q;
+    cout<<"\nThe product is: "<<r;
+    
     return 0;
 }
